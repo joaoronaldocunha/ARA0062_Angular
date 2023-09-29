@@ -25,3 +25,16 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Git hub actions configure
+
+[Git Hub Actions Configuration Reference] (https://github.com/rodrigokamada/angular-github-actions)
+
+1. If you app is not on root, use the following command before run. Example:
+```
+working-directory: ./app
+```
+        
+2. Create a gh-pages branch
+
+3. Make sure you gave Read and Write permissions to wokflow on Repository Settings / Actions / General.
